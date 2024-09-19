@@ -3,7 +3,9 @@
 
 <head>  
     <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://kit.fontawesome.com/90b32dcee6.js" crossorigin="anonymous"></script>
+ 
     <title>Document</title>  
     <style>  
         * {  
@@ -142,7 +144,21 @@
             top: 0%;
             left: 85%;
         }
+        .static-pop {
+            border: 1px solid rebeccapurple;
+            display: inline;
+            font-size: 30px;
+            color: white;
+            background-color: black;
+            padding: .2em;
+            border-radius: 30px;
+            position:fixed;
+            top: calc(100vh - 65px);
+            left: 90%;
+            z-index: 2;
 
+            
+        }
         /* -------------------------------------------------- */
     </style>  
 </head>  
@@ -269,6 +285,7 @@
             </div>
         </div>
      </section>
+     <div class="static-pop"><i class="fa-solid fa-comment"></i></div>
 </body>  
 
 </html>
